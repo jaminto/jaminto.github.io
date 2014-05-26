@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Jason Aminto's Developer Blog
+tagline: Programming and stuff.
 author :
   name : Jason Aminto
   email : jason@jasonaminto.com
