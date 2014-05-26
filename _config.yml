@@ -13,7 +13,7 @@ tagline: Site Tagline
 author :
   name : Jason Aminto
   email : jason@jasonaminto.com
- github : jaminto
+  github : jaminto
 # twitter : username
 # feedburner : feedname
 
@@ -128,4 +128,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-markdown: kramdown
+markdown : kramdown

@@ -1,12 +1,12 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://jaminto.github.io/archive.html
+http://jaminto.github.io/atom.xml
+http://jaminto.github.io/categories.html
+http://jaminto.github.io/index.html
+http://jaminto.github.io/pages.html
+http://jaminto.github.io/rss.xml
+http://jaminto.github.io/sitemap.txt
+http://jaminto.github.io/tags.html
 
-http://username.github.io/2014/05/26/hello-world
-http://username.github.io/lessons/2011/12/29/jekyll-introduction
+http://jaminto.github.io/2014/05/26/hello-world
+http://jaminto.github.io/lessons/2011/12/29/jekyll-introduction
