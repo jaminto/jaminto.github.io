@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Removing AppName_Deploy Virtual Directory from a Site Published with WebD Deploy"
+title: "Removing AppName_Deploy Virtual Directory from a Site Published with Web Deploy"
 description: "By default, webdeploy.exe will create a virutal directory named YourAppName_deploy in IIS and deploy your site there.   This is usually not desirable.   Here's how to change that."
 category: Deployment
 tags: [IIS,WebDeploy]
