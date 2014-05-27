@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a Login Service for an iPhone Application using WCF"
-description: ""
+description: "Previously, we described how to create a WCF service from scratch that would easily output data from a Windows Communication Foundation (WCF) service.   In this article, we'll show you how to send data the other way - from the iPhone to a WCF service."
 category: Development
 tags: [WCF]
 ---

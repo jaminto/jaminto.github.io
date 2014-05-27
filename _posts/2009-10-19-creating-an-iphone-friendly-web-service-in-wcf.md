@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating an iPhone-friendly Web Service in WCF"
-description: ""
+description: "Use JSON formatted data output from WCF for mobile device consumption"
 category: Development
 tags: [WCF]
 ---

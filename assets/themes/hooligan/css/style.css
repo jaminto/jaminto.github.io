@@ -409,3 +409,21 @@ div.sidebar section img.icon {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
+.post_header_bar {
+  margin-left:0px;
+}
+.post_header_bar span {
+  display: inline;
+}
+.post_header_bar h4 {
+  display: inline;
+}
+.post_header_bar ul {
+  display: inline;
+}
+.post_header_bar ul li {
+  display: inline;
+}
+.post_header_bar div {
+  display: inline;
+}

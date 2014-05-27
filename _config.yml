@@ -10,10 +10,12 @@ pygments: true
 #
 title : Jason Aminto's Developer Blog
 tagline: Programming and stuff.
+description: "Blogging on building distributed systems running windows on Amazon Web Services."
 author :
   name : Jason Aminto
   email : jason@jasonaminto.com
   github : jaminto
+  linkedin : jaminto
 # twitter : username
 # feedburner : feedname
 
