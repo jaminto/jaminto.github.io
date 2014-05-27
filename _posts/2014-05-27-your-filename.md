@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+description: Just Testing
+category: Test
+tags: 
+  - Testing
 ---
 
 ## A New Post
