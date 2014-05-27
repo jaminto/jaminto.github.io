@@ -13,7 +13,7 @@ tagline: "Building distributed systems running windows on Amazon Web Services."
 <div class="row">
 {% endif %} 
   <div class="span4">
-    <h3 class="title">{{ post.title }}</h3>
+    <h2 class="title">{{ post.title }}</h2>
     <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
     {{ post.date | date: "%b %Y" }}
     </info> - 
