@@ -16,7 +16,7 @@ tagline: "Building distributed systems running windows on Amazon Web Services."
     <h3 class="title">{{ post.title }}</h3>
     <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
     {{ post.date | date: "%b %Y" }}
-    </info>
+    </info> - 
     {% if post.description %}
       <span class="body">{{ post.description | strip_html }}</span>
     {% else %}
