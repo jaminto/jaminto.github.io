@@ -13,17 +13,21 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "WCF"
+              value: "WCF"
+            - name: "IIS"
+              value: "IIS"
+            - name: "SNS"
+              value: "SNS"
+            - name: "ASP.NET MVC"
+              value: "ASP.NET_MVC"
     _posts/static:
       - name: "layout"
         field:
