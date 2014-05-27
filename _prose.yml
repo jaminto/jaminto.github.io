@@ -41,7 +41,7 @@ prose:
               value: "Testing"
       - name: "description"
         field:
-          element: "text"
+          element: "textarea"
           label: "Description"
     _posts/static:
       - name: "layout"
