@@ -28,6 +28,21 @@ prose:
               value: "SNS"
             - name: "ASP.NET MVC"
               value: "ASP.NET_MVC"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Choose Category"
+          options:
+            - name: "Development"
+              value: "Development"
+            - name: "Deployment"
+              value: "Deployment"
+            - name: "Testing"
+              value: "Testing"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
     _posts/static:
       - name: "layout"
         field:
