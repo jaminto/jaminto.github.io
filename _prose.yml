@@ -28,9 +28,9 @@ prose:
               value: "SNS"
             - name: "ASP.NET MVC"
               value: "ASP.NET_MVC"
-      - name: "categories"
+      - name: "category"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Choose Category"
           options:
             - name: "Development"
