@@ -10,6 +10,9 @@ Enable port 1801 on send and receive side security groups
 
 Install msmq
 ![screenshot.1.png](/media/screenshot.10.png)
+![screenshot.5.png](/media/screenshot.5.png)
+![screenshot.7.png](/media/screenshot.7.png)
+
  
 Add second drive for MSMQ storage, configure MSMQ to use
 
