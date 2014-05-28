@@ -1,7 +1,12 @@
 ---
 layout: post
-published: false
-category: Development
+published: true
+category: Deployment
+tags: 
+  - MSMQ
+  - NServiceBus
+  - EC2
+description: "Configuring MSMQ on Autoscaled servers on AWS can be tricky since MSMQ's internal addressing system assumes unique computer ids.    Here are the steps to configure MSMQ so it works successfully after launching installations from AMIs."
 ---
 
 #Steps to set up MSMQ on AWS
