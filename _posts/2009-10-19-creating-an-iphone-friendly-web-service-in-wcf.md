@@ -65,4 +65,6 @@ Now we can host the service library we've created in a standard ASP.NET web proj
 
 Now it's time to see it all in motion.  Set the web application as the startup project and run it.  Append Service1.svc/test/random to the path in the address bar (e.g. http://localhost:52265/Service1.svc/test/random), press enter, and take a look at the sweet JSON file that comes out, just the way the iPhone likes it.
 
+Download the full sample source code [here](/downloads/WcfServiceLibrary1.zip).
+
 Another hot tip:  Download and install the [JSONView](https://addons.mozilla.org/en-US/firefox/addon/10869) add in for Firefox to see your JSON in the browser.
