@@ -19,6 +19,7 @@ Add second drive for MSMQ storage, configure MSMQ to use
 
 you will need to manually create these folders on disk, and MSMQ will warn you about setting permissions properly, but the default should be fine.
 Remove message storage limits
+![screenshot.3.png](/media/screenshot.3.png)
 
 
 Make QMId unique per EC2 instance
