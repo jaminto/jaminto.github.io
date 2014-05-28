@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jason Aminto's Developer Blog
+title : Jason Aminto
 tagline: Programming and stuff.
 description: "Blogging on building distributed systems running windows on Amazon Web Services."
 author :
