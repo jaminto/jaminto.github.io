@@ -12,7 +12,7 @@ Install msmq
 ![screenshot.1.png](/media/screenshot.10.png)
 ![screenshot.5.png](/media/screenshot.5.png)
 ![screenshot.7.png](/media/screenshot.7.png)
-![screenshot.1.png](/media/screenshot.1.png)
+![screenshot.2.png](/media/screenshot.2.png)
 
  
 Add second drive for MSMQ storage, configure MSMQ to use
