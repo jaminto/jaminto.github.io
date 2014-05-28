@@ -39,6 +39,7 @@ from: http://blogs.msdn.com/b/johnbreakwell/archive/2007/02/06/msmq-prefers-to-b
 create new local administrator account - to ensure that password ec2 stuff doesn’t screw you
 
 Ensure computer names will be unique - Check set computer name
+![screenshot.8.png](/media/screenshot.8.png)
 
 
 shutdown with sys prep - you must choose “Random” Password, if you don’t even the current password you have on THIS machine will not work:
