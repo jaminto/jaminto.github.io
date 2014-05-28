@@ -47,13 +47,10 @@ shutdown with sys prep - you must choose “Random” Password, if you don’t e
 ![screenshot.png](/media/screenshot.png)
 
 
-wait for instance to enter “stopped” state in AWS console
-  
-
-NOW TAKE AMI - do the next steps through EB configuration
-
-
+wait for instance to enter “stopped” state in AWS console 
 then take AMI
+![screenshot.6.png](/media/screenshot.6.png)
+
 
 Messages will not be processed if the host name does match the destination.  IE. if you send to handlers.com, msmq expects the destination to be the local computer name i.e. IP-133423.  need to modify the registry.
 
