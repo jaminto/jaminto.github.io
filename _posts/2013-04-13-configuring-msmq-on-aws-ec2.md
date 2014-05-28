@@ -30,11 +30,7 @@ Workgroup mode, though, is less drastic:
   1. Stop the MSMQ Service 
   2. Delete the HKLM\Software\Microsoft\MSMQ\Parameters\MachineCache\QMId value completely
 ![screenshot.3.png](/media/screenshot.3.png)
-
-  3. 
-
-  4. Add a SysPrep DWORD (Under HKLM\Software\Microsoft\MSMQ\Parameters) and set it to 1
-  5. 
+  4. Add a SysPrep DWORD (Under HKLM\Software\Microsoft\MSMQ\Parameters) and set it to 1 ![screenshot.9.png](/media/screenshot.9.png)
 
   6. DO NOT Start the MSMQ Service
 
