@@ -43,6 +43,7 @@ prose:
         field:
           element: "textarea"
           label: "Description"
+          value: ""
     _posts/static:
       - name: "layout"
         field:
