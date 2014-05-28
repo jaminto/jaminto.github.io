@@ -21,8 +21,8 @@ you will need to manually create these folders on disk, and MSMQ will warn you a
 Remove message storage limits
 ![screenshot.3.png](/media/screenshot.3.png)
 
-
 Make QMId unique per EC2 instance
+![screenshot.4.png](/media/screenshot.4.png)
 
 
 Workgroup mode, though, is less drastic:
