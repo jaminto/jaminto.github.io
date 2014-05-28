@@ -12,10 +12,10 @@ Install msmq
 ![screenshot.1.png](/media/screenshot.10.png)
 ![screenshot.5.png](/media/screenshot.5.png)
 ![screenshot.7.png](/media/screenshot.7.png)
-![screenshot.2.png](/media/screenshot.2.png)
 
  
 Add second drive for MSMQ storage, configure MSMQ to use
+![screenshot.2.png](/media/screenshot.2.png)
 
 you will need to manually create these folders on disk, and MSMQ will warn you about setting permissions properly, but the default should be fine.
 Remove message storage limits
