@@ -50,12 +50,6 @@ wait for instance to enter “stopped” state in AWS console
 
 NOW TAKE AMI - do the next steps through EB configuration
 
-enable http compression through cloud front
-edit existing <serverRuntime/> node in applicationHost.config to:
-<serverRuntime enabled="true" frequentHitThreshold="1" frequentHitTimePeriod="00:00:20" />
-
-added to httpcompression node:
- noCompressionForHttp10="false" noCompressionForProxies="false" 
 
 then take AMI
 
