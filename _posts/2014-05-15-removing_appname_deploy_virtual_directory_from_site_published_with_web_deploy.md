@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-By default, when using webdeploy.exe,  your application will get deployed to a virtual directory similar to ApplicationName_deploy.
+By default, when using webdeploy.exe,  your application will get deployed to a virtual directory similar to ApplicationName_deploy.  This means instead of your page urls based of the site root, they will be based off of /ApplicationName_deploy, eg. http://<site>/ApplicationName_deploy/.
 If you don’t like this, you can change by adding the following to your .csproj file:
 
     <DeployIisAppPath>Default Web Site/</DeployIisAppPath>
