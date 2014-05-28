@@ -41,8 +41,10 @@ create new local administrator account - to ensure that password ec2 stuff doesn
 Ensure computer names will be unique - Check set computer name
 ![screenshot.8.png](/media/screenshot.8.png)
 
+At this point, you may want to [enable HTTP Compression via CloudFront]( post_url 2013-04-01-enabling-http-compression-in-iis-for-use-with-cloudfront).
 
 shutdown with sys prep - you must choose “Random” Password, if you don’t even the current password you have on THIS machine will not work:
+![screenshot.png](/media/screenshot.png)
 
 
 wait for instance to enter “stopped” state in AWS console
