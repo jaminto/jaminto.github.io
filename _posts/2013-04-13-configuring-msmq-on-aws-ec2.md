@@ -21,14 +21,16 @@ you will need to manually create these folders on disk, and MSMQ will warn you a
 Remove message storage limits
 ![screenshot.3.png](/media/screenshot.3.png)
 
+
 Make QMId unique per EC2 instance
-![screenshot.4.png](/media/screenshot.4.png)
 
 
 Workgroup mode, though, is less drastic:
 
   1. Stop the MSMQ Service 
   2. Delete the HKLM\Software\Microsoft\MSMQ\Parameters\MachineCache\QMId value completely
+![screenshot.3.png](/media/screenshot.3.png)
+
   3. 
 
   4. Add a SysPrep DWORD (Under HKLM\Software\Microsoft\MSMQ\Parameters) and set it to 1
