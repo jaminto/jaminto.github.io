@@ -9,6 +9,7 @@ Steps to set up MSMQ on AWS
 Enable port 1801 on send and receive side security groups
 
 Install msmq
+![screenshot.1.png](/media/screenshot.10.png)
  
 Add second drive for MSMQ storage, configure MSMQ to use
 
