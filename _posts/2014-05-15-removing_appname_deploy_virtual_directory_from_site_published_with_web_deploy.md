@@ -14,7 +14,7 @@ If you don’t like this, you can change by adding the following to your .csproj
 
 {% highlight xml %}  
     <DeployIisAppPath>Default Web Site/</DeployIisAppPath>
-{% highlight xml %}  
+{% endhighlight %}  
 
 This is a per configuration setting, so you must add it to each configuration.  For example:
 
