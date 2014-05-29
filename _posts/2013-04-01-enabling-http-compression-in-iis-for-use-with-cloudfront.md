@@ -5,6 +5,7 @@ category: Deployment
 description: "By default, IIS will not serve gzip compressed pages through CloudFront.   This article describes how to configure IIS so it does."
 tags: 
   - IIS
+  - CloudFront
 ---
 
 ##The Problem
