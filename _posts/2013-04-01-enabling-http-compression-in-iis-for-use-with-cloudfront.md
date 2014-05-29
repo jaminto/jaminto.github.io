@@ -14,7 +14,13 @@ This is because the default configuration for IIS7 does not allow compression wh
 ##The Solution
 To fix this, you need to make a change to the `applicationHost.config` file on your windows server.   This is typically located at `C:\Windows\System32\Inetsrv\Config\applicationHost.config`.   
 
-There are two changes that need to be made.  First, locate the existing [`<serverRuntime/>`](http://www.iis.net/configreference/system.webserver/serverruntime) node in applicationHost.config and change it to read:
+There are few changes that need to be made.  
+
+First, locate the existing [`<serverRuntime/>`](http://www.iis.net/configreference/system.webserver/serverruntime) node in applicationHost.config and change it to read:
 `<serverRuntime enabled="true" frequentHitThreshold="1" frequentHitTimePeriod="00:00:20" />`
+
 Next, locate the [`<httpCompression>'](http://www.iis.net/configreference/system.webserver/httpcompression) node and add the following attributes:
 `noCompressionForHttp10="false" noCompressionForProxies="false"`
+
+After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).aspx), 
+
