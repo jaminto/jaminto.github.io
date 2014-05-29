@@ -22,5 +22,5 @@ First, locate the existing [`<serverRuntime/>`](http://www.iis.net/configreferen
 Next, locate the [`<httpCompression>'](http://www.iis.net/configreference/system.webserver/httpcompression) node and add the following attributes:
 `noCompressionForHttp10="false" noCompressionForProxies="false"`
 
-After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).aspx), 
+After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).aspx), all requests through CloudFront should now return Gzipped content. 
 
