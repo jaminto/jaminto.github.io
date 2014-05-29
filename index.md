@@ -28,3 +28,4 @@ tagline: "Building distributed systems running windows on Amazon Web Services."
 </div>
 {% endif %} 
 {% endfor %}
+<hr style="background: Gray"/>
