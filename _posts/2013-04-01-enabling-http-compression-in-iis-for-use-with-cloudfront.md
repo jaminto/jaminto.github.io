@@ -30,7 +30,7 @@ After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).as
 ##References
 A few links that helped me to this conclusion:
 
-- http://www.jonkragh.com/index.php/amazon-cloudfront-with-iis7/
-- https://forums.aws.amazon.com/thread.jspa?threadID=60812
--  http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html#CompressedCustomOrigin
-- http://stackoverflow.com/questions/2203798/in-iis7-gzipped-files-do-not-stay-that-way
+- <http://www.jonkragh.com/index.php/amazon-cloudfront-with-iis7/>
+- <https://forums.aws.amazon.com/thread.jspa?threadID=60812>
+-  <http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html#CompressedCustomOrigin>
+- <http://stackoverflow.com/questions/2203798/in-iis7-gzipped-files-do-not-stay-that-way>
