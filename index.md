@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Latest Posts
 tagline: "Building distributed systems running windows on Amazon Web Services."
 
 ---
