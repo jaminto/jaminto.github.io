@@ -15,10 +15,12 @@ If you don’t like this, you can change by adding the following to your .csproj
     <DeployIisAppPath>Default Web Site/</DeployIisAppPath>
 
 This is a per configuration setting, so you must add it to each configuration.  For example:
-  
+
+{% hilight %}  
     <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT|AnyCPU'">
         <OutputPath>bin\</OutputPath>
         <DeployIisAppPath>Default Web Site/</DeployIisAppPath>
     </PropertyGroup>
+{% endhilight %}
 
 This setting used to be available in the project properties within VS, but in VS2013 at least, it is not.
