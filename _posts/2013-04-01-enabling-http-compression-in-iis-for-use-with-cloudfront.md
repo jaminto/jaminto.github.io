@@ -20,8 +20,14 @@ There are few changes that need to be made.
 First, locate the existing [`<serverRuntime/>`](http://www.iis.net/configreference/system.webserver/serverruntime) node in applicationHost.config and change it to read:
 `<serverRuntime enabled="true" frequentHitThreshold="1" frequentHitTimePeriod="00:00:20" />`
 
-Next, locate the [`<httpCompression>'](http://www.iis.net/configreference/system.webserver/httpcompression) node and add the following attributes:
+Next, locate the [`<httpCompression>`](http://www.iis.net/configreference/system.webserver/httpcompression) node and add the following attributes:
 `noCompressionForHttp10="false" noCompressionForProxies="false"`
 
-After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).aspx), all requests through CloudFront should now return Gzipped content. 
+After an [IISReset](http://msdn.microsoft.com/en-us/library/ms957500(v=cs.70).aspx), all requests through CloudFront should now return Gzipped content.
 
+##References
+A few links that helped me to this conclusion:
+ * http://www.jonkragh.com/index.php/amazon-cloudfront-with-iis7/
+ * https://forums.aws.amazon.com/thread.jspa?threadID=60812
+ *  http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html#CompressedCustomOrigin
+ * http://stackoverflow.com/questions/2203798/in-iis7-gzipped-files-do-not-stay-that-way
