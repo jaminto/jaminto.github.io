@@ -2,6 +2,7 @@
 layout: post
 published: false
 category: Development
+description: Use a simple patch request to extract data from a document id and save as a new property on the document with RavenDB
 ---
 
 It may feel a little dirty to put the same value in both the document id, for example:
@@ -27,7 +28,7 @@ _id: Users/E41270DC-4E0D-48C2-B3CE-4A51FFB649E3_
                     Script = @"
                         var currentDocId = __document_id;
                         var id = currentDocId.substring(currentDocId.indexOf('/')+1);
-                        this.EndpointArn = id;
+                        this.UserId = id;
                         "
                 }
                 );
