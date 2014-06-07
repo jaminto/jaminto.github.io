@@ -3,6 +3,8 @@ layout: post
 published: false
 category: Development
 description: Use a simple patch request to extract data from a document id and save as a new property on the document with RavenDB
+tags: 
+  - RavenDB
 ---
 
 It may feel a little dirty to put the same value in both the document id, for example:
