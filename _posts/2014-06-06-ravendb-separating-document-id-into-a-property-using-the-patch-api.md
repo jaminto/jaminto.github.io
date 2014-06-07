@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 category: Development
 description: Use a simple patch request to extract data from a document id and save as a new property on the document with RavenDB
 tags: 
