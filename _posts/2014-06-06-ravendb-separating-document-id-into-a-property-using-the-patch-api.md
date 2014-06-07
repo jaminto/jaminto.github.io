@@ -23,7 +23,8 @@ _id: Users/E41270DC-4E0D-48C2-B3CE-4A51FFB649E3_
  However, if you do have millions of User documents in your database, and you *did not* remember to include the UserId property in the document, here's an easy [patch request](http://ravendb.net/docs/2.5/client-api/partial-document-updates) that will add this UserId property to all of your docs:
  
  {% highlight csharp %}
-  store.DatabaseCommands.UpdateByIndex("Raven/DocumentsByEntityName",
+
+    store.DatabaseCommands.UpdateByIndex("Raven/DocumentsByEntityName",
                 new IndexQuery { Query = "Tag:EndpointSubscriptions" },
                 new ScriptedPatchRequest
                 {
@@ -34,4 +35,5 @@ _id: Users/E41270DC-4E0D-48C2-B3CE-4A51FFB649E3_
                         "
                 }
                 );
+                
 {% endhighlight %}
