@@ -38,6 +38,8 @@ prose:
               value: "EC2"
             - name: "ElasticBeanstalk"
               value: "ElasticBeanstalk"
+            - name: "RavenDB"
+              value: "RavenDB"
       - name: "category"
         field:
           element: "select"
