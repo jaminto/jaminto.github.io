@@ -27,7 +27,7 @@ However, if you do have millions of User documents in your database, and you *di
 {% highlight csharp %}
 
   store.DatabaseCommands.UpdateByIndex("Raven/DocumentsByEntityName",
-    new IndexQuery { Query = "Tag:EndpointSubscriptions" },
+    new IndexQuery { Query = "Tag:Users" },
     new ScriptedPatchRequest
     {
       Script = @"
